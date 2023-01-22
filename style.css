@@ -1,31 +1,31 @@
 *
 body{
-  display: flex
-  justify-content: center
-  align-items: center
-  height: 100vh
-  background-color: black
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
  } 
 .netflix-stick{
-  width: 7vh
-  height: 30vh
-  background-color: #b1060f
-  position: relative
+  width: 7vh;
+  height: 30vh;
+  background-color: #b1060f;
+  position: relative;
  }
 .netflix-stick:before{
-  content: ""
-  position: absolute
-  width: 7vh
-  height: 30vh
-  background-color: #e50913
-  transform: skew(20deg)
-  left: 5.5vh
-  box-shadow: 0 0 2.5vh -1vh black
+  content: "";
+  position: absolute;
+  width: 7vh;
+  height: 30vh;
+  background-color: #e50913;
+  transform: skew(20deg);
+  left: 5.5vh;
+  box-shadow: 0 0 2.5vh -1vh black;
  }
 .netflix-stick:after{
-  content: ""
-  position: absolute
-  width: 7vh
-  height: 30vh
-  background-color: #b1060f
+  content: "";
+  position: absolute;
+  width: 7vh;
+  height: 30vh;
+  background-color: #b1060f;
  }
